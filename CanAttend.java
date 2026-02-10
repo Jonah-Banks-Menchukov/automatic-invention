@@ -1,9 +1,12 @@
+//Jonah Banks
+//This class has all the methods for canAttend and main method
+//2/9/26
 import java.util.ArrayList;
 
 public class CanAttend {
 
-	//precondition: 
-	//postcondition: 
+	//precondition: meetings is an arraylist of meetingIntervals
+	//postcondition: boolean returned, false if cannot attend meetings
 	public static boolean canAttend(ArrayList<MeetingInterval> meetings) {
 		//your implementation here
 		System.out.println(meetings);
